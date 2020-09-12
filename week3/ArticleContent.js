@@ -4,7 +4,7 @@ class ArticleContent extends Component {
 
   constructor(content) {
     this.props = {};
-    this.props.component = content;
+    this.props.content = content;
   }
 
   render() {
