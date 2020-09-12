@@ -2,8 +2,9 @@ const Component = require("./Component.js");
 
 class ArticleContent extends Component {
 
-  constructor(props) {
-    super(props);
+  constructor(content) {
+    this.props = {};
+    this.props.component = content;
   }
 
   render() {

@@ -3,8 +3,9 @@ class ArticleTitle extends Component{
 
 
 
-    constructor(props) {
-      super(props);
+    constructor(title) {
+      this.props = {};
+      this.props.title = title;
     }
   
     render() {

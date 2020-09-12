@@ -25,9 +25,9 @@ class Article extends Component {
     // Use template literals for the variables
     return `
       <Article>
-        <Title> ${this.props.title.render()} </Title>
+        <Title> ${this.props.title} </Title>
         <Author> ${this.props.author} </Author>
-        <Text> ${this.props.content.render()} </Text>
+        <Text> ${this.props.content} </Text>
       </Article>`;
     
   }
