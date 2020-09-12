@@ -1,7 +1,12 @@
 // Component is the parent
 class Component {
-  constructor (props) {
+  constructor (props, state) {
     this.props = props;
+    this.state = state;
+  }
+
+  setState(object) {
+    this.state = object;
   }
 
   render () {
@@ -9,4 +14,4 @@ class Component {
   }
 }
 
-export default Component;
+export default  Component;
