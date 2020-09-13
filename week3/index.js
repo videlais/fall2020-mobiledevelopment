@@ -1,8 +1,6 @@
-// Import Article
-import Article from './Article.js';
-
+const Article = require("./Article.js");
 // Pass the values to the constructor method of Article
-const a = new Article (
+let a = new Article (
   {
     title: "This is the title!",
     author: "Me",
