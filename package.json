@@ -1,7 +1,7 @@
 {
-  "name": "personal_blog",
+  "name": "week3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Week 3 Files",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot --port 3000",
