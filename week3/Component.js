@@ -1,7 +1,7 @@
-// Component is the parent
 class Component {
   constructor (props) {
     this.props = props;
+  
   }
 
   render () {
@@ -9,4 +9,4 @@ class Component {
   }
 }
 
-export default Component;
+module.exports = Component;
