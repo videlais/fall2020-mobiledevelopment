@@ -1,13 +1,15 @@
 import Sidebar from './components/Sidebar.js';
 
-const s = new Sidebar({
+render () = new Sidebar({
   menu: [
-    'Albert Eggstein',
-    'Attila the Hen',
-    'Attila the Hen',
-    'Dixie Chick',
-    'Gregory Peck',
-    'Mary Poopins'
+    <ul>
+      <li>'Albert Eggstein',</li>
+      <li>'Attila the Hen',</li>
+      <li>'Attila the Hen',</li>
+      <li>'Dixie Chick',</li>'
+      <li>'Gregory Peck',</li>
+      <li>'Mary Poopins'</li>
+    </ul>
   ]
 });
 
